@@ -87,17 +87,15 @@ $(document).ready(function () {
     });
     // == part 2 == for change navbar colors ==
     function checkScroll(){
-        var startY = $('.navbar').height() * 2;
+        var startY = $('.navbar').height() * 0;
     
         if($(window).scrollTop() > startY){
                 $(".navbar").css("background", "#fff");
-                $(".navbar").css("box-shadow", "1px 1px 1px");
-                $(".navbar-nav .nav-link").css("color", "#000");
+                $(".navbar-nav .nav-link, .navbar-brand").css("color", "#000");
                 $(".navbar-brand").css("color", "#000");
         }else{
             $('.navbar').css("background", "rgba(0,0,0,0.0)");
-            $(".navbar").css("box-shadow", "0px 0px 0px");
-            $(".navbar-nav .nav-link").css("color", "#fff");
+            $(".navbar-nav .nav-link, .navbar-brand").css("color", "#fff");
             $(".navbar-brand").css("color", "#fff");
         }
     }
