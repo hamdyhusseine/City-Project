@@ -5,9 +5,9 @@ $('.test,.navbar .nav-link, .navbar-brand,header .btn, .new-button').click(funct
     }, 1500);
 });
 
-$(document).ready(function(){
-    $("#loading-screen").fadeOut(1000) 
-    })
+$(window).on('load', function(){
+    $('#loading-screen').fadeOut(1000);
+})
     
 $("#__chn").click(function () {
     if($(".jax2").is(":visible")){
