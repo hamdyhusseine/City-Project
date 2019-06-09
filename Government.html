@@ -179,9 +179,9 @@
             }, 500);
         });
         // 
-        $(document).ready(function () {
-            $("#loading-screen").fadeOut(1000)
-        })
+        $(window).on('load', function(){
+    $('#loading-screen').fadeOut(1000);
+      })
 
         var track = document.getElementById('track');
 
