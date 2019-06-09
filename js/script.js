@@ -95,7 +95,7 @@ $(document).ready(function () {
                 $(".navbar-brand").css("color", "#000");
         }else{
             $('.navbar').css("background", "rgba(0,0,0,0.0)");
-            $(".navbar-nav .nav-link, .navbar-brand").css("color", "#000");
+            $(".navbar-nav .nav-link").css("color", "#000");
             $(".navbar-brand").css("color", "#fff");
         }
     }
