@@ -124,9 +124,9 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/numscroller-1.0.js"></script>
     <script>
-        $(document).ready(function(){
-        $("#loading-screen").fadeOut(1000) 
-        })
+                $(window).on('load', function(){
+            $('#loading-screen').fadeOut(1000);
+         })
     
         var track = document.getElementById('track');
 
