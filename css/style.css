@@ -3,9 +3,12 @@
 
 body {
  position: relative;
+  overflow: hidden;
  }
 .closed {
  background: #222;
+  height: 100vh;
+  overflow: hidden;
   color: #fff;
   z-index: 100000000;
  position: absolute;
