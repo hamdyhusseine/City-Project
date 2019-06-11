@@ -1,6 +1,20 @@
 *:focus:not(.focus-visible) {
   outline: none; }
 
+body {
+ position: relative;
+ }
+.closed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;}
+.closed h3 {
+ position :fixed;
+ top: 30vh;
+ text-align: center;
+ margin: auto;}
 /* ---- Public ---- */
 html {
   direction: rtl !important; }
