@@ -14,10 +14,8 @@ body {
  right: 0;
  bottom: 0;}
 .closed h3 {
- position :fixed;
- top: 30vh;
- left: 0;
-  right:0;
+ text-align: center;
+ padding-top: 30%;
  text-align: center;
  margin: auto;}
 /* ---- Public ---- */
